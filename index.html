@@ -1,0 +1,179 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Liberty News Radio</title>
+</head>
+
+<body class="flex flex-col min-h-screen font-Roboto Slab, serif;">
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <div class="container flex flex-wrap justify-between items-center">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="./assets/img/LibertyNewsRadio.png" alt="Liberty News Radio Logo">
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto " id="navbar-default">
+                <ul
+                    class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 list-none">
+                    <li>
+                        <a href="./index.html"
+                            class="block py-2 pr-4 pl-3 text-white bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:p-0 dark:text-white"
+                            aria-current="page">Home - Listen Live</a>
+                    </li>
+                    <li>
+                        <a href="./assets/pages/podcasts.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Podcasts</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCVGN9AVsOoyhOAade6HGnAw" target="_blank"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Videos</a>
+                    </li>
+                    <li>
+                        <a href="./assets/pages/programschedule.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Program
+                            Schedule</a>
+                    </li>
+                    <li>
+                        <a href="./assets/pages/affiliates.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Affiliates</a>
+                    </li>
+                    <li>
+                        <a href="./assets/pages/about.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="./assets/pages/advertise.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Advertise</a>
+                    </li>
+                    <li>
+                        <a href="./assets/pages/contact.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact
+                            Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./assets/pages/donate.html"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Donate
+                            Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main
+        class="xl:mx-[25%] xl:w-[50%] lg:mx-[20%] lg:w-[60%] md:mx-[15%] md:w-[70%] sm:mx-[10%] xl:w-[80%] max-w-5xl mt-10">
+        <h1 class="text-2xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl font-bold">Listen Live</h1>
+        <br>
+        <div>
+            <audio class="w-[100%]" src="http://lin1.san.fast-serv.com:6048/stream.mp3" controls></audio>
+        </div>
+        <br>
+
+        <h2 class="text-xl xl:text-2xl lg:text-2xl md:text-1xl sm:text-xl font-bold">Get on Air - Call in Live</h2>
+        <p class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">Call this number to participate on-air with the
+            host(s) during LIVE programming :
+            <a href="tel:866-986-6397"><strong class="text-red-500">866-989-6397</strong></a>
+        </p>
+        <p class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">That's <a href="tel:866-986-6397"><strong
+                    class="text-red-500">866-989-NEWS</strong></a></p>
+        <br>
+
+        <h2 class="text-xl xl:text-2xl lg:text-2xl md:text-1xl sm:text-xl font-bold">Unlimited Listen-Only Lines</h2>
+        <p class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">Call from anywhere! Just dial <a
+                href="tel:631-359-9366"><strong class="text-red-500"> 631-359-9366</strong></a> and listen from any
+            phone!</p>
+        <br>
+
+        <h2 class="text-xl xl:text-2xl lg:text-2xl md:text-1xl sm:text-xl font-bold">Internet Streams</h2>
+        <p class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg"><a class="text-blue-500"
+                href="http://lin1.san.fast-serv.com:6048/stream.mp3" target="_blank">Connect </a>Winamp, iTunes,
+            QuickTime,
+            and most others 64k</p>
+        <p class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg"><a class="text-blue-500"
+                href="http://lin1.san.fast-serv.com:6048/stream.mp3">Connect </a>iPhone/iPod, VLC (.pls file) 64k</p>
+        <br>
+
+        <h2 class="text-xl xl:text-2xl lg:text-2xl md:text-1xl sm:text-xl font-bold">Roku Channel</h2>
+        <p class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">Don’t have a Roku Player? Buy one <a
+                class="text-blue-500" href="https://www.roku.com/" target="_blank">HERE</a> Look in the Roku Channel
+            Store's
+            Special Interest Section for the free Liberty News Radio channel. Or, try this link!</p>
+        <br>
+
+        <h2 class="text-xl xl:text-2xl lg:text-2xl md:text-1xl sm:text-xl font-bold">Media Players</h2>
+        <ul>
+            <li class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">iTunes Player <a
+                    class="float-right text-blue-500" href="https://www.apple.com/itunes/" target="_blank">Download</a>
+            </li>
+            <li class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">QuickTime Player <a
+                    class="float-right text-blue-500" href="https://support.apple.com/kb/DL837?locale=en_US"
+                    target="_blank">Download</a></li>
+            <li class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">Winamp Player <a
+                    class="float-right text-blue-500" href="https://www.winamp.com/" target="_blank">Download</a></li>
+            <li class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">Real Player <a
+                    class="float-right text-blue-500" href="https://www.real.com/realplayer?rppr=rnwk"
+                    target="_blank">Download</a></li>
+            <li class="text-md xl:text-xl lg:text-xl md:text-lg sm:text-lg">Windows Media Player <a
+                    class="float-right text-blue-500"
+                    href="https://support.microsoft.com/en-us/windows/get-windows-media-player-81718e0d-cfce-25b1-aee3-94596b658287"
+                    target="_blank">Download</a>
+            </li>
+        </ul>
+
+        <br>
+        <h2 class="text-xl xl:text-2xl lg:text-2xl md:text-1xl sm:text-xl font-bold mb-2">Do you like this page? Share
+            on Social Media:</h2>
+        <div class="grid grid-cols-2 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2">
+            <button
+                class="sociallinks bg-red-500 m-1 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                <a href="#" class="fa fa-envelope"></a>
+                <span>Email</span>
+            </button>
+            <button
+                class="sociallinks bg-cyan-600 m-1 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                <a href="#" class="fa fa-linkedin"></a>
+                <span>LinkedIn</span>
+            </button>
+            <button
+                class="sociallinks bg-blue-500 m-1 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                <a href="#" class="fa fa-facebook"></a>
+                <span>Facebook</span>
+            </button>
+            <button
+                class="sociallinks bg-sky-500 m-1 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                <a href="#" class="fa fa-twitter"></a>
+                <span>Twitter</span>
+            </button>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer
+        class="mt-auto h-10 divide-blue-200 m-3 xl:mx-[25%] xl:w-[50%] lg:mx-[20%] lg:w-[60%] md:mx-[15%] md:w-[70%] sm:mx-[10%] xl:w-[80%] max-w-5xl">
+        <p>© Copyright 2009-2022 - Liberty News Radio, All Rights Reserved</p>
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+</body>
+
+</html>
